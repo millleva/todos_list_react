@@ -4,7 +4,8 @@
     "ecmaVersion": 2022
   },
   "env": {
-    "node": true
+    "node": true,
+    "browser": true
   },
   "extends": [
     "prettier",
