@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/TodoItem.css";
+import "../../styles/todos/TodoItem.css";
 
 const TodoItem = () => {
   return (

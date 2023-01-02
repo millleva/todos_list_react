@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 // components
-import TodoItem from "./TodoItem";
+import TodoItem from "./todos/TodoItem";
 
 // styles
 import "../styles/App.css";
-import TodoHeading from "./TodoHeading";
+import TodoHeading from "./todos/TodoHeading";
 
 const App = () => {
   const [todos, setTodos] = useState([
