@@ -5,6 +5,7 @@ import TodoItem from "./TodoItem";
 
 // styles
 import "../styles/App.css";
+import TodoHeading from "./TodoHeading";
 
 const App = () => {
   const [todos, setTodos] = useState([
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <TodoHeading />
       <TodoItem />
       <TodoItem />
       <TodoItem />
